@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+header {
+    background: linear-gradient(45deg, #ff0000, #00ff00); /* Poor contrast */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
+button {
+    font-size: 16px;
+    background: #ff0000; /* Red background with poor color contrast */
+    color: #ff5555;      /* Text almost unreadable */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff2222;
+}
